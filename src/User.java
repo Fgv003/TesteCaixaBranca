@@ -33,4 +33,7 @@ public class User {
 		}18	catch (Exception e) 19{ }20
 		return result;
 	}																			21
+
+
 	}//fim da class22
+
