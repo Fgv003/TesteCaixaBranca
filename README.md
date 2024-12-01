@@ -10,8 +10,8 @@
 
 ## Cálculo de Complexidade :
 
-E = 14
-N = 15
+N = 14
+E = 15
 
 M = E - N + 2P
 
