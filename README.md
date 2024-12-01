@@ -35,5 +35,14 @@ A falta de indentação prejudica demais o código, dificultando a percepção e
 
 # **Etapa 2: Preenchimento do Formulário :**
 
-Planilha preenchida e inserida nos arquivos acima.
+Planilha preenchida e inseria na branch Main.
+
+
+# **Etapa 3: Grafo de Fluxo :**
+
+
+
+# **Etapa 4: Javadoc :**
+
+O Javadoc gerado para o código detalha as responsabilidades de cada método e atributo, permitindo que desenvolvedores compreendam facilmente a funcionalidade e a forma de uso da classe. A documentação explica o propósito de cada componente, como o tratamento das credenciais, a conexão com o banco e o uso de bibliotecas Java para realizar operações de banco de dados. Este repositório pode ser expandido e aprimorado com medidas de segurança, como a utilização de Prepared Statements para prevenir SQL Injection, e melhor tratamento de exceções para lidar com erros de forma mais robusta.
 
