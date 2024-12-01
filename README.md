@@ -2,7 +2,7 @@
 
 ## Grafo de Fluxo :
 
-<![src](/Grafo%20de%20Fluxo/Grafo%20de%20Fluxo%20-%20modelo.pg)>
+<![src](/Grafo%20de%20Fluxo/Grafo%20de%20Fluxo%20-%20modelo.png)>
 
 ## Código :
 
