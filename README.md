@@ -1,39 +1,28 @@
-# Teste de Caixa Branca - UX | UI
+# **Etapa 3: Grafo de Fluxo :**
 
-# **Etapa 1: Erros no código**
+## Grafo de Fluxo :
 
-## váriavel global  :
+<![src](/Grafo%20de%20Fluxo/Grafo%20de%20Fluxo%20-%20modelo.pg)>
 
-As variáveis foram declaradas como public, tornando a classe desprotegida, podendo comprometer a integridade dos dados
+## Código :
 
-## driver MySQL :
+<![src](/Grafo%20de%20Fluxo/Grafo%20de%20Fluxo%20-%20código.png)>
 
-A classe driver não está conectada de maneira correta, trazendo erros para funcionalidade do sistema
+## Cálculo de Complexidade :
 
+E = 14
+N = 15
 
-## exceções :
+M = E - N + 2P
 
-O tratamento de erros está genérico e basicamente omitido, agravando a manutenção do software. A utilização de classe genérica Exception, dificulta o tratamento de erros e exceções
+M = 15 - 14 + (2.1)
 
+M = 3
 
-## Url :
+## Caminhos :
 
-Faltam parâmetros essências como useSSL e ServerTimezone, podendo trazer problemas no ambiente de produção
+C1 = 1-2-3-5-6-7-8-12-13-14
 
+C2 = 1-2-3-4-6-7-8-12-13-14
 
-## conexão :
-
-A função responsável por lidar com a conexão não realiza a verificação de maneira clara e funcional. Trazendo problemas e possíveis falhas de conexão, ja que a mesma não é instanciada direto na classe.
-
-##  MySQL Injection :
-
-A forma como as querys estão sendo passadas, abrem brecha para comandos inadequados inseridos pelo usuários
-
-## falta de Indentação :
-
-A falta de indentação prejudica demais o código, dificultando a percepção e leitura do sistema. O ideal seria que o programador se preocupe com isso e siga as boas práticas de código.
-
-# **Etapa 2: Preenchimento do Formulário :**
-
-Planilha preenchida e inserida nos arquivos acima.
-
+C3 = 1-2-3-4-6-7-8-9-10-11-13-14
